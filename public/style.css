@@ -82,7 +82,6 @@ nav {
         border: 1px solid aliceblue;
         cursor: pointer;
         font-size: 25px;
-        color: aliceblue;
     }
     .toggler:hover {
         color: rgb(218, 45, 45);

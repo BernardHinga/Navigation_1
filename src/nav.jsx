@@ -6,13 +6,26 @@ const Nav = () => {
             <div className="logo">
                 <h3>Navigation</h3>
             </div>
-            <ul className="navbar">
-                <li><Link to='/'>Home</Link></li>
-                <li><Link to='/about'>About</Link></li>
-                <li><Link to='/services'>Services</Link></li>
-                <li><Link to='/partners'>Partners</Link></li>
-                <li><Link to='/contact-us'>Contact</Link></li>
+            <ul class="navbar">
+                <li className="nav-item">
+                    <Link to='/'>Home</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/about'>About</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/services'>Services</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/partners'>Partners</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/contact-us'>Contact</Link>
+                </li>
             </ul>
+            <div className="toggler">
+                <i className="fas fa-bars"></i>
+            </div>
         </nav>
     )
 }
