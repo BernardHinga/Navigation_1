@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'KoHo', sans-serif;
+}
+
+.content {
+    padding: 100px;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1 {
+    color: red;
+    margin: 30px;
+}
+
+nav {
+    display: flex;
+    background-color: rgb(218, 45, 45);
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100px;
+}
+
+.logo {
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+}
+
+.navbar a:hover {
+    color: rgb(218, 45, 45);
+    font-weight: bold;
+    background-color: aliceblue;
+    border-radius: 15px;
+}
